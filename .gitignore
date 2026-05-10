@@ -1,1 +1,23 @@
-Nothing needs to be added to .gitignore since the changes only include source code files (.css, .jsx) and no build artifacts, dependencies, or temporary files.
+```
+# Build artifacts
+dist/
+build/
+*.js
+
+# Dependencies
+node_modules/
+
+# Editors
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+```

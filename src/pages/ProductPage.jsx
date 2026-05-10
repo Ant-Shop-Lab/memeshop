@@ -29,13 +29,13 @@ const ProductPage = () => {
         
         <div className="product-detail">
           <div className="product-image-wrapper">
-            <img src={product.image} alt={product.name} className="product-image" />
+            <img src={product.image} alt={product.title} className="product-image" />
           </div>
           
           <div className="product-info">
             <span className="product-category">{product.category}</span>
-            <h1 className="product-title">{product.name}</h1>
-            <p className="product-price">{product.price} ₽</p>
+            <h1 className="product-title">{product.title}</h1>
+            <p className="product-price">{product.price} ₴</p>
             <p className="product-description">{product.description}</p>
             
             <button className="add-to-cart-btn" onClick={handleAddToCart}>
