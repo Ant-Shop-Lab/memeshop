@@ -29,7 +29,7 @@ const ProductPage = () => {
         
         <div className="product-detail">
           <div className="product-image-wrapper">
-            <img src={product.image} alt={product.name} className="product-image" />
+            <img src={product.image} alt={product.title} className="product-image" />
           </div>
           
           <div className="product-info">
